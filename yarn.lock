@@ -1909,19 +1909,19 @@ pg-int8@1.0.1:
   resolved "https://registry.yarnpkg.com/pg-int8/-/pg-int8-1.0.1.tgz#943bd463bf5b71b4170115f80f8efc9a0c0eb78c"
   integrity sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==
 
-pg-lazy@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/pg-lazy/-/pg-lazy-2.0.3.tgz#7c7e25f710c7998482766847d340d62d6633a4fd"
-  integrity sha512-BY1L57ML0Gzh+kmIHyKXClm41HchtSmkB4domk73QKVorlVZg+bdCDb+zL2o2moUc5VtqpRD3yeyAfkbOSMqhg==
+pg-lazy@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/pg-lazy/-/pg-lazy-2.1.0.tgz#d91dbca14e88f5ed3e551552b4231e6a75497605"
+  integrity sha512-xvwy9+na5R28QPc8VYX/P/iTZQKraJ0ok+MuGNpjo7jHWbZ7NIfEVXVY0uibRyLw6WzrXB2Xcpi9llq9vIMf0A==
   dependencies:
-    pg-minify "^0.5.4"
+    pg-minify "^1.4.1"
     pg-pool "^2.0.3"
-    semver "^5.5.0"
+    semver "^6.1.1"
 
-pg-minify@^0.5.4:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/pg-minify/-/pg-minify-0.5.5.tgz#6c961a61aa19f469d8edfe5a3c0da58760f3c339"
-  integrity sha512-7Pf9h6nV1RFqED1hkRosePqvpPwNUUtW06TT4+lHwzesxa5gffxkShTjYH6JXV5sSSfh5+2yHOTTWEkCyCQ0Eg==
+pg-minify@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/pg-minify/-/pg-minify-1.4.1.tgz#ff9a9febefa6cec53055e2fd24e3115a275e2a08"
+  integrity sha512-8aZ9xdx7Pe/ppFYVOqvU5KgmM6ttXjaBlsl9Y8yzrUH4xSNVucJKKOwm4Y4H+LCvzZGjZIm4Rkf2Ajt5ixtkBQ==
 
 pg-pool@^2.0.3, pg-pool@^2.0.4:
   version "2.0.6"
@@ -2190,10 +2190,15 @@ semver@4.3.2:
   resolved "https://registry.yarnpkg.com/semver/-/semver-4.3.2.tgz#c7a07158a80bedd052355b770d82d6640f803be7"
   integrity sha1-x6BxWKgL7dBSNVt3DYLWZA+AO+c=
 
-semver@^5.3.0, semver@^5.5.0:
+semver@^5.3.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
   integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+
+semver@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
+  integrity sha512-rWYq2e5iYW+fFe/oPPtYJxYgjBm8sC4rmoGdUOgBB7VnwKt6HrL793l2voH1UlsyYZpJ4g0wfjnTEO1s1NP2eQ==
 
 set-blocking@~2.0.0:
   version "2.0.0"
