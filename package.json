@@ -42,7 +42,7 @@
     "koa-logger": "^3.0.1",
     "koa-nunjucks-async": "^1.0.1",
     "koa-router": "^7.2.1",
-    "pg": "^7.8.1",
+    "pg": "^8.2.0",
     "pg-lazy": "^2.0.3",
     "request": "^2.81.0"
   }
