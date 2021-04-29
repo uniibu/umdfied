@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: urijs
+    versions:
+    - 1.19.5
+  - dependency-name: pg
+    versions:
+    - 8.5.1
+  - dependency-name: koa-helmet
+    versions:
+    - 6.0.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
